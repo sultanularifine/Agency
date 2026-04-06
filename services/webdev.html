@@ -6,19 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sultanul Arifinee | Web Developer & CEO</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap"
+        rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap"
-        rel="stylesheet">
-
-
-
     <style>
         * {
             cursor: none;
@@ -214,52 +210,15 @@
 
     <nav class="fixed w-full z-50 px-4 md:px-12 py-4">
         <div class="max-w-7xl mx-auto flex justify-between items-center glass p-4 rounded-2xl">
-            <a href="index.html"><span
-                    class="text-xl font-extrabold tracking-tighter text-primary uppercase">Arifine<span
-                        class="text-slate-400 dark:text-white">.dev</span></span></a>
+            <a href="index.html"><span class="text-xl font-extrabold tracking-tighter text-primary uppercase">Arifine<span
+                    class="text-slate-400 dark:text-white">.dev</span></span></a>
+
             <div
                 class="hidden lg:flex items-center space-x-6 text-[10px] font-bold uppercase tracking-[0.2em] opacity-80">
                 <a href="index.html" class="hover:text-primary transition magnetic-btn">Home</a>
-
-                <div class="relative group">
-                    <a href="services.html"
-                        class="flex items-center gap-1 hover:text-primary transition magnetic-btn uppercase font-bold text-[10px] tracking-[0.2em]">
-                        Services
-                        <span class="text-[8px] transition-transform group-hover:rotate-180">▼</span>
-                    </a>
-                    <div
-                        class="absolute top-full left-0 mt-2 w-40 glass rounded-xl border border-white/5 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 shadow-2xl overflow-hidden">
-                        <div class="flex flex-col py-2">
-
-
-                            <a href="services/webdev.html"
-                                class="px-4 py-2 hover:bg-primary/20 hover:text-primary transition-colors border-b border-white/5 text-[10px] uppercase font-bold tracking-widest">Web
-                                Development</a>
-
-                            <a href="services/wordpress.html"
-                                class="px-4 py-2 hover:bg-primary/20 hover:text-primary transition-colors border-b border-white/5 text-[10px] uppercase font-bold tracking-widest">WordPress</a>
-
-                            <a href="services/digital-marketing.html"
-                                class="px-4 py-2 hover:bg-primary/20 hover:text-primary transition-colors border-b border-white/5 text-[10px] uppercase font-bold tracking-widest">Digital
-                                Marketing</a>
-                            <a href="services/graphicdesign.html"
-                                class="px-4 py-2 hover:bg-primary/20 hover:text-primary transition-colors border-b border-white/5 text-[10px] uppercase font-bold tracking-widest">Graphic
-                                Design</a>
-                            <a href="portfolio.html"
-                                class="px-4 py-2 hover:bg-primary/20 hover:text-primary transition-colors border-b border-white/5 text-[10px] uppercase font-bold tracking-widest">Portfolio</a>
-
-                        </div>
-                    </div>
-                </div>
-
-
+                <a href="services.html" class="hover:text-primary transition magnetic-btn">Services</a>
                 <a href="portfolio.html" class="hover:text-primary transition magnetic-btn">Portfolio</a>
-
-                <!-- <a href="services/webdev.html" class="hover:text-primary transition magnetic-btn">Web Development</a>
-                <a href="services/wordpress.html" class="hover:text-primary transition magnetic-btn">WordPress</a>
-                <a href="services/digital-marketing.html" class="hover:text-primary transition magnetic-btn">Digital
-                    Marketing</a>
-                <a href="services/graphicdesign.html" class="hover:text-primary transition magnetic-btn">Graphic Design</a> -->
+                <a href="courses.html" class="hover:text-primary transition magnetic-btn">Courses</a>
                 <div class="relative group">
                     <a href="academy.html"
                         class="flex items-center gap-1 hover:text-primary transition magnetic-btn uppercase font-bold text-[10px] tracking-[0.2em]">
@@ -269,8 +228,6 @@
                     <div
                         class="absolute top-full left-0 mt-2 w-40 glass rounded-xl border border-white/5 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 shadow-2xl overflow-hidden">
                         <div class="flex flex-col py-2">
-                            <a href="courses.html"
-                                class="px-4 py-2 hover:bg-primary/20 hover:text-primary transition-colors border-b border-white/5 text-[10px] uppercase font-bold tracking-widest">Courses</a>
                             <a href="internship.html"
                                 class="px-4 py-2 hover:bg-primary/20 hover:text-primary transition-colors border-b border-white/5 text-[10px] uppercase font-bold tracking-widest">Internship</a>
                             <a href="ambassador.html"
@@ -278,14 +235,13 @@
                         </div>
                     </div>
                 </div>
+                <a href="digital-marketing.html" class="hover:text-primary transition magnetic-btn">Digital Marketing</a>
                 <a href="contact.html" class="hover:text-primary transition magnetic-btn">Contact</a>
             </div>
-
             <div class="flex items-center space-x-4">
                 <button id="theme-toggle" class="p-2.5 rounded-xl glass hover:border-primary magnetic-btn">🌓</button>
                 <a href="enrill-form.html"
-                    class="bg-primary px-5 py-3.5 font-bold text-[11px] uppercase rounded-xl glass shadow-lg hover:border-primary magnetic-btn text-white">Sign
-                    Up</a>
+                    class="bg-primary px-5 py-3.5 font-bold text-[11px] uppercase rounded-xl glass shadow-lg hover:border-primary magnetic-btn text-white">Enroll Now</a>
             </div>
         </div>
     </nav>
@@ -300,18 +256,8 @@
         class="hidden fixed left-4 top-[150px] z-50 glass rounded-2xl p-6 flex-col gap-5 text-[10px] font-bold uppercase tracking-widest border border-white/10 shadow-2xl">
         <a href="index.html">Home</a>
         <a href="services.html">Services</a>
-        <div class="flex flex-col gap-2">
-            <div class="flex justify-between items-center w-full">
-                <a href="services.html" class="hover:text-primary transition-colors">Services</a>
-                <button onclick="document.getElementById('academy-sub').classList.toggle('hidden')"
-                    class="p-2 glass rounded-lg text-[8px]">▼</button>
-            </div>
-            <div id="academy-sub" class="hidden flex flex-col gap-4 pl-4 mt-2 border-l border-primary/30">
-                <a href="portfolio.html" class="opacity-80">Portfolio</a>
-
-            </div>
-        </div>
-
+        <a href="portfolio.html">Portfolio</a>
+        <a href="courses.html">Courses</a>
         <div class="flex flex-col gap-2">
             <div class="flex justify-between items-center w-full">
                 <a href="academy.html" class="hover:text-primary transition-colors">Academy</a>
@@ -319,12 +265,10 @@
                     class="p-2 glass rounded-lg text-[8px]">▼</button>
             </div>
             <div id="academy-sub" class="hidden flex flex-col gap-4 pl-4 mt-2 border-l border-primary/30">
-                <a href="courses.html" class="opacity-80">Courses</a>
                 <a href="internship.html" class="opacity-80">Internship</a>
                 <a href="ambassador.html" class="opacity-80">Ambassador</a>
             </div>
         </div>
-
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
     </div>
@@ -332,16 +276,12 @@
     <div class="social-dock">
         <a href="https://wa.me/8801766359998" target="_blank"
             class="glass dock-item text-green-500 hover:bg-green-500 hover:text-white flex items-center gap-2 px-3 py-2 rounded-lg">
-            <!-- WhatsApp Name -->
             <span class="dock-name text-[10px] font-bold uppercase leading-none">WhatsApp</span>
-
-            <!-- WhatsApp Icon -->
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-5 h-5 fill-current flex-shrink-0">
                 <path
                     d="M12.04 0C5.37 0 0 5.37 0 12c0 2.11.55 4.08 1.51 5.82L0 24l6.42-1.69C8.2 23.45 10.09 24 12.04 24c6.67 0 12.04-5.37 12.04-12 0-6.63-5.37-12-12.04-12zm0 21.9c-2.07 0-4-.55-5.65-1.52l-.4-.23-3.8 1 1-3.77-.24-.4C2.64 15.95 2.09 14.07 2.09 12c0-5.48 4.46-9.94 9.95-9.94 5.48 0 9.94 4.46 9.94 9.95 0 5.49-4.46 9.95-9.95 9.95zm5.43-7.5c-.29-.14-1.7-.85-1.97-.94-.27-.09-.49-.14-.71.14-.21.28-.8.95-.98 1.14-.18.2-.36.22-.66.07-.29-.15-1.23-.42-2.34-1.34-.86-.77-1.44-1.73-1.6-2-.17-.27-.02-.42.12-.55.14-.13.27-.32.4-.48.13-.16.17-.27.26-.44.08-.18.04-.32-.02-.44-.06-.12-.61-1.46-.83-2-.22-.54-.44-.46-.61-.46-.17 0-.34-.02-.51-.02s-.44.06-.67.32c-.22.25-.85.85-.85 2.07s.89 2.39 1.02 2.56c.13.16 2.18 3.35 5.31 4.7.75.32 1.33.51 1.78.66.74.24 1.41.2 1.94.13.59-.09 1.57-.64 1.79-1.27.21-.63.21-1.16.15-1.28-.06-.12-.23-.18-.5-.32z" />
             </svg>
         </a>
-
         <a href="https://linkedin.com/in/sultanularifine" target="_blank"
             class="glass dock-item text-blue-400 hover:bg-blue-600 hover:text-white">
             <span class="dock-name">LinkedIn</span>
@@ -350,7 +290,6 @@
                     d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
             </svg>
         </a>
-
         <a href="https://www.facebook.com/sultanularifine.official" target="_blank"
             class="glass dock-item text-blue-500 hover:bg-blue-500 hover:text-white">
             <span class="dock-name">Facebook</span>
@@ -359,7 +298,6 @@
                     d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
             </svg>
         </a>
-
         <a href="https://github.com/sultanularifine" target="_blank"
             class="glass dock-item text-gray-800 hover:bg-gray-800 hover:text-white">
             <span class="dock-name">GitHub</span>
@@ -368,8 +306,7 @@
                     d="M12 .296c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.016-2.04-3.338.724-4.042-1.612-4.042-1.612-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.084 1.84 1.236 1.84 1.236 1.07 1.834 2.809 1.304 3.495.997.108-.775.418-1.304.762-1.604-2.665-.3-5.466-1.332-5.466-5.931 0-1.31.468-2.381 1.235-3.222-.123-.303-.536-1.523.117-3.176 0 0 1.008-.322 3.301 1.23a11.52 11.52 0 0 1 3.003-.404c1.018.005 2.043.138 3.003.404 2.291-1.552 3.297-1.23 3.297-1.23.654 1.653.242 2.873.119 3.176.77.841 1.233 1.912 1.233 3.222 0 4.609-2.804 5.628-5.476 5.921.43.37.814 1.102.814 2.222 0 1.604-.015 2.896-.015 3.286 0 .319.216.694.825.576C20.565 22.092 24 17.592 24 12.296c0-6.627-5.373-12-12-12" />
             </svg>
         </a>
-
-        <a href="portfolio.html" class="glass dock-item text-primary hover:bg-primary hover:text-white">
+        <a href="#projects" class="glass dock-item text-primary hover:bg-primary hover:text-white">
             <span class="dock-name">View Portfolio</span>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                 stroke-linejoin="round">
@@ -377,357 +314,175 @@
             </svg>
         </a>
     </div>
+    <h1 class="text-6xl font-black mb-6 leading-tight" hidden>
+        <span id="typed-text"></span>
+    </h1>
 
-    <header id="home" class="relative min-h-screen flex items-center px-6 md:px-24 pt-20">
-        <div class="grid lg:grid-cols-2 gap-12 w-full items-center">
-            <div class="z-10 reveal">
-
-                <h3 class="text-primary font-mono text-sm mb-4 tracking-widest uppercase">Empowering Digital Excellence
-                </h3>
-                <h1 class="text-6xl font-black mb-6 leading-tight">
-                    <span id="typed-text"></span>
-                </h1>
-                <p class="text-sm opacity-60 mb-10 max-w-lg leading-relaxed">We provide high-end web solutions and
-                    creative designs to help businesses grow in the digital era. Join our community of 10K+ satisfied
-                    clients.</p>
-                <div class="flex gap-4">
-                    <a href="#programs"
-                        class="px-8 py-4 bg-primary text-white font-black rounded-xl shadow-xl hover:scale-105 transition-all text-xs uppercase">Get
-                        Started</a>
-                    <a href="#portfolio"
-                        class="px-8 py-4 glass border border-white/10 font-black rounded-xl hover:bg-white/5 transition-all text-xs uppercase">Our
-                        Work</a>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <section id="services" class="py-24 px-6 md:px-24">
-        <div class="max-w-7xl mx-auto">
-            <div class="section-header reveal">
-                <h2>Our Core Services</h2>
-                <div class="line"></div>
-            </div>
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="glass p-8 rounded-3xl hover:border-primary transition group reveal">
-                    <div class="text-3xl mb-4 group-hover:scale-110 transition">💻</div>
-                    <h4 class="text-xl font-bold mb-2">Web Development</h4>
-                    <p class="text-xs opacity-60">Laravel, React, and high-performance backend solutions.</p>
-                </div>
-                <div class="glass p-8 rounded-3xl hover:border-primary transition group reveal">
-                    <div class="text-3xl mb-4 group-hover:scale-110 transition">🎨</div>
-                    <h4 class="text-xl font-bold mb-2">WordPress</h4>
-                    <p class="text-xs opacity-60">Custom themes and Elementor expert designs.</p>
-                </div>
-                <div class="glass p-8 rounded-3xl hover:border-primary transition group reveal">
-                    <div class="text-3xl mb-4 group-hover:scale-110 transition">✒️</div>
-                    <h4 class="text-xl font-bold mb-2">Graphic Design</h4>
-                    <p class="text-xs opacity-60">Logo, UI/UX, and professional branding assets.</p>
-                </div>
-                <div class="glass p-8 rounded-3xl hover:border-primary transition group reveal">
-                    <div class="text-3xl mb-4 group-hover:scale-110 transition">🚀</div>
-                    <h4 class="text-xl font-bold mb-2">Digital Marketing</h4>
-                    <p class="text-xs opacity-60">SEO, SMM, and targeted growth strategies.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="programs" class="py-24 px-6 md:px-24 ">
-        <div class="max-w-7xl mx-auto">
-            <div class="section-header reveal">
-                <h2>Learning & Career</h2>
-                <div class="line"></div>
-            </div>
-            <div class="grid lg:grid-cols-3 gap-8">
-                <div class="glass p-10 rounded-[2.5rem] reveal">
-                    <h3 class="text-2xl font-black mb-4">Skill Courses</h3>
-                    <ul class="space-y-3 text-sm opacity-70">
-                        <li>• Full Stack Laravel Mastery</li>
-                        <li>• Professional Graphic Design</li>
-                        <li>• WordPress Customization</li>
-                    </ul>
-                    <button class="mt-8 text-primary font-bold text-xs uppercase tracking-tighter">View Courses
-                        →</button>
-                </div>
-                <div class="glass p-10 rounded-[2.5rem] border-t-4 border-primary reveal">
-                    <h3 class="text-2xl font-black mb-4 text-primary">Internship</h3>
-                    <p class="text-sm opacity-70 mb-6">Get hands-on experience working on real agency projects under
-                        expert mentorship.</p>
-                    <button class="px-6 py-3 bg-primary text-white rounded-lg text-[10px] font-bold uppercase">Apply
-                        Now</button>
-                </div>
-                <div class="glass p-10 rounded-[2.5rem] reveal">
-                    <h3 class="text-2xl font-black mb-4">Ambassador</h3>
-                    <p class="text-sm opacity-70 mb-6">Represent Alpha Coder in your campus and earn exclusive rewards
-                        and
-                        certificates.</p>
-                    <button class="mt-4 text-primary font-bold text-xs uppercase tracking-tighter">Learn More →</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects" class="py-24 py-3 px-6 md:px-24">
-        <div class="max-w-7xl mx-auto">
-            <div class="section-header reveal">
-                <h2>Key Projects</h2>
-                <div class="line"></div>
-            </div>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="glass rounded-[2rem] overflow-hidden group reveal">
-                    <div
-                        class="h-48 bg-gradient-to-br from-primary/20 to-purple-600/20 flex items-center justify-center font-black text-primary p-6 text-center italic">
-                        STUDENT OF THE YEAR</div>
-                    <div class="p-8">
-                        <h4 class="text-xl font-bold">Olympiad System</h4>
-                        <p class="text-xs opacity-60 my-4 uppercase">Laravel, Ajax, Bootstrap</p>
-                        <a href="https://studentoftheyear.online"
-                            class="text-primary font-black text-xs uppercase tracking-widest border-b border-primary/20 pb-1 hover:border-primary transition-all">Live
-                            Link ↗</a>
-                    </div>
-                </div>
-                <div class="glass rounded-[2rem] overflow-hidden group border-t-2 border-primary reveal">
-                    <div
-                        class="h-48 bg-gradient-to-br from-blue-600/20 to-primary/20 flex items-center justify-center font-black text-blue-400 p-6 text-center italic uppercase">
-                        Avro E-Commerce</div>
-                    <div class="p-8">
-                        <h4 class="text-xl font-bold">Dynamic E-com</h4>
-                        <p class="text-xs opacity-60 my-4 uppercase">Product & Cart Management</p>
-                        <a href="http://avro.studentsoftheyear.com"
-                            class="text-primary font-black text-xs uppercase tracking-widest border-b border-primary/20 pb-1 hover:border-primary transition-all">Live
-                            Link ↗</a>
-                    </div>
-                </div>
-                <div class="glass rounded-[2rem] overflow-hidden group reveal">
-                    <div
-                        class="h-48 bg-gradient-to-br from-emerald-600/20 to-primary/20 flex items-center justify-center font-black text-emerald-400 p-6 text-center italic">
-                        Alpha Coder</div>
-                    <div class="p-8">
-                        <h4 class="text-xl font-bold">Agency Site</h4>
-                        <p class="text-xs opacity-60 my-4 uppercase">Intern Management Portal</p>
-                        <a href="http://requinbd.com"
-                            class="text-primary font-black text-xs uppercase tracking-widest border-b border-primary/20 pb-1 hover:border-primary transition-all">Live
-                            Link ↗</a>
-                    </div>
-                </div>
-            </div>
-
-            <h4 class="text-xs font-black uppercase text-primary mt-16 mb-8 reveal">
-                WordPress & Client Works
-                <span class="text-info text-[10px] font-normal">(Live Link)</span>
-            </h4>
-            <div class="flex flex-wrap gap-4 reveal">
-                <a href="https://uc-chembd.com"
-                    class="glass px-4 py-2 rounded-xl text-[10px] hover:text-primary transition">UC-Chem BD</a>
-                <a href="https://fernygrovevet.com.au"
-                    class="glass px-4 py-2 rounded-xl text-[10px] hover:text-primary transition">Fernygrove Vet</a>
-                <a href="https://secondpurchase.com"
-                    class="glass px-4 py-2 rounded-xl text-[10px] hover:text-primary transition">Second Purchase</a>
-                <a href="https://www.averontradesinternational.com"
-                    class="glass px-4 py-2 rounded-xl text-[10px] hover:text-primary transition">Averon Trades
-                    International</a>
-                <a href="https://bdsmartunion.com"
-                    class="glass px-4 py-2 rounded-xl text-[10px] hover:text-primary transition">BD Smart Union</a>
-                <a href="https://rehabphysiocare.com"
-                    class="glass px-4 py-2 rounded-xl text-[10px] hover:text-primary transition">Rehab Physio Care</a>
-                <a href="https://psdibd.com"
-                    class="glass px-4 py-2 rounded-xl text-[10px] hover:text-primary transition">PSDI BD</a>
-                <a href="https://dynamic.edu.bd"
-                    class="glass px-4 py-2 rounded-xl text-[10px] hover:text-primary transition">Dynamic EDU</a>
-                <a href="https://kmmusicstudio.com"
-                    class="glass px-4 py-2 rounded-xl text-[10px] hover:text-primary transition">KM Music Studio</a>
-                <a href="https://saifshoeb.com"
-                    class="glass px-4 py-2 rounded-xl text-[10px] hover:text-primary transition">Saif Shoeb</a>
-                <a href="https://cincinnaticarpetrepair.com"
-                    class="glass px-4 py-2 rounded-xl text-[10px] hover:text-primary transition">Cincinnati Carpet
-                    Repair</a>
-            </div>
-        </div>
-    </section>
-
-    <section id="success" class="py-24 px-6 md:px-24">
-        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
-            <div class="reveal">
-                <h2 class="text-4xl font-black mb-6 uppercase">Student <span class="text-primary">Success</span> Stories
-                </h2>
-                <p class="opacity-60 mb-8">Hundreds of our students are now working in top local and international
-                    agencies. We don't just teach; we build careers.</p>
-                <div class="grid grid-cols-2 gap-4">
-                    <div class="glass p-6 rounded-2xl">
-                        <h4 class="text-3xl font-black text-primary">500+</h4>
-                        <p class="text-[10px] uppercase font-bold opacity-50">Students Placed</p>
-                    </div>
-                    <div class="glass p-6 rounded-2xl">
-                        <h4 class="text-3xl font-black text-primary">50+</h4>
-                        <p class="text-[10px] uppercase font-bold opacity-50">Active Interns</p>
-                    </div>
-                </div>
-            </div>
-           <div class="glass p-4 rounded-[2rem] reveal">
-    <div id="video-wrapper" 
-         class="aspect-video bg-white/5 rounded-2xl flex items-center justify-center text-primary italic font-black relative overflow-hidden cursor-pointer group"
-         onclick="playVideo()">
-        
-        <img id="thumb-img" 
-             src="https://i.ytimg.com/vi/OcbhF7CaUXw/maxresdefault.jpg" 
-             alt="Thumbnail" 
-             class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity duration-500">
-
-        <div id="play-btn" class="relative z-10 w-16 h-16 bg-primary/20 backdrop-blur-md border border-primary/50 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-            <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M8 5v14l11-7z"></path>
-            </svg>
+    <section id="services" class="py-24 px-6 md:px-24 relative">
+    <div class="max-w-7xl mx-auto">
+        <div class="section-header reveal">
+            <h2 class="text-slate-900 dark:text-white">Expertise <span class="text-primary">&</span> Solutions</h2>
+            <div class="line"></div>
+            <p class="text-xs font-mono uppercase tracking-[0.3em] opacity-50 mt-4">Scalable Backend & Laravel Specialist</p>
         </div>
 
-        <div id="video-placeholder" class="absolute inset-0 w-full h-full hidden"></div>
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-8 mt-12">
+            
+            <div class="glass p-8 rounded-3xl border border-white/5 hover:border-primary/40 transition-all duration-500 group reveal">
+                <div class="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                    <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-extrabold mb-4 uppercase tracking-tight">Laravel Development</h3>
+                <p class="text-sm opacity-60 leading-relaxed mb-6">কাস্টম এন্টারপ্রাইজ সলিউশন থেকে শুরু করে জটিল ই-কমার্স প্ল্যাটফর্ম। আমি পরিষ্কার কোড এবং MVC আর্কিটেকচার নিশ্চিত করি।</p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="skill-badge">Eloquent ORM</span>
+                    <span class="skill-badge">Blade</span>
+                    <span class="skill-badge">Middleware</span>
+                </div>
+            </div>
+
+            <div class="glass p-8 rounded-3xl border border-white/5 hover:border-blue-500/40 transition-all duration-500 group reveal">
+                <div class="w-14 h-14 bg-blue-500/10 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                    <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-extrabold mb-4 uppercase tracking-tight">API Integration</h3>
+                <p class="text-sm opacity-60 leading-relaxed mb-6">মোবাইল অ্যাপ বা থার্ড-পার্টি সার্ভিসের জন্য সুরক্ষিত এবং দ্রুতগামী RESTful API তৈরি ও ইন্টিগ্রেশন।</p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="skill-badge">Laravel Passport</span>
+                    <span class="skill-badge">JWT</span>
+                    <span class="skill-badge">JSON</span>
+                </div>
+            </div>
+
+            <div class="glass p-8 rounded-3xl border border-white/5 hover:border-green-500/40 transition-all duration-500 group reveal">
+                <div class="w-14 h-14 bg-green-500/10 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                    <svg class="w-8 h-8 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 7v10c0 2.21 3.58 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.58 4 8 4s8-1.79 8-4M4 7c0-2.21 3.58-4 8-4s8 1.79 8 4m0 5c0 2.21-3.58 4-8 4s-8-1.79-8-4"></path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-extrabold mb-4 uppercase tracking-tight">DB Management</h3>
+                <p class="text-sm opacity-60 leading-relaxed mb-6">MySQL ডাটাবেস ডিজাইন এবং কুয়েরি অপ্টিমাইজেশন যাতে আপনার অ্যাপ্লিকেশন লোড হয় সুপার ফাস্ট গতিতে।</p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="skill-badge">MySQL</span>
+                    <span class="skill-badge">Indexing</span>
+                    <span class="skill-badge">Migrations</span>
+                </div>
+            </div>
+
+        </div>
     </div>
-</div>
-
-
-        </div>
-    </section>
-
-    <section id="testimonials" class="py-24 py-3 px-6 md:px-24 overflow-hidden">
-        <div class="max-w-7xl mx-auto">
-            <div class="section-header reveal">
-                <h2>Client Testimonials</h2>
-                <div class="line"></div>
+</section>
+<section class="py-20 bg-primary/5 border-y border-white/5">
+    <div class="max-w-7xl mx-auto px-6 md:px-24">
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-12 text-center">
+            <div class="reveal">
+                <h3 class="text-4xl font-black text-primary mb-2">50+</h3>
+                <p class="text-[10px] uppercase tracking-widest font-bold opacity-60">Projects Completed</p>
             </div>
+            <div class="reveal">
+                <h3 class="text-4xl font-black text-primary mb-2">30+</h3>
+                <p class="text-[10px] uppercase tracking-widest font-bold opacity-60">Happy Clients</p>
+            </div>
+            <div class="reveal">
+                <h3 class="text-4xl font-black text-primary mb-2">4+</h3>
+                <p class="text-[10px] uppercase tracking-widest font-bold opacity-60">Years Experience</p>
+            </div>
+            <div class="reveal">
+                <h3 class="text-4xl font-black text-primary mb-2">100%</h3>
+                <p class="text-[10px] uppercase tracking-widest font-bold opacity-60">Client Satisfaction</p>
+            </div>
+        </div>
+    </div>
+</section><section id="workflow" class="py-24 px-6 md:px-24">
+    <div class="max-w-7xl mx-auto">
+        <div class="section-header reveal">
+            <h2 class="dark:text-white">Development <span class="text-primary">Process</span></h2>
+            <div class="line"></div>
+        </div>
 
-            <div class="swiper testimonial-swiper reveal">
-                <div class="swiper-wrapper py-10">
+        <div class="grid md:grid-cols-4 gap-6 mt-12">
+            <div class="glass p-6 rounded-2xl relative overflow-hidden group reveal">
+                <span class="absolute -right-4 -top-4 text-8xl font-black opacity-5 group-hover:opacity-10 transition-opacity">01</span>
+                <h4 class="text-primary font-bold mb-3 uppercase tracking-tighter">Planning</h4>
+                <p class="text-xs opacity-60 leading-relaxed">প্রজেক্টের রিকোয়ারমেন্ট এনালাইসিস এবং ডাটাবেস আর্কিটেকচার ডিজাইন করা।</p>
+            </div>
+            <div class="glass p-6 rounded-2xl relative overflow-hidden group reveal">
+                <span class="absolute -right-4 -top-4 text-8xl font-black opacity-5 group-hover:opacity-10 transition-opacity">02</span>
+                <h4 class="text-primary font-bold mb-3 uppercase tracking-tighter">Development</h4>
+                <p class="text-xs opacity-60 leading-relaxed">Laravel এবং Clean Code ব্যবহার করে ব্যাকএন্ড ও এপিআই ডেভেলপ করা।</p>
+            </div>
+            <div class="glass p-6 rounded-2xl relative overflow-hidden group reveal">
+                <span class="absolute -right-4 -top-4 text-8xl font-black opacity-5 group-hover:opacity-10 transition-opacity">03</span>
+                <h4 class="text-primary font-bold mb-3 uppercase tracking-tighter">Testing</h4>
+                <p class="text-xs opacity-60 leading-relaxed">বাগ ফিক্সিং এবং সিকিউরিটি টেস্টিং নিশ্চিত করা।</p>
+            </div>
+            <div class="glass p-6 rounded-2xl relative overflow-hidden group reveal">
+                <span class="absolute -right-4 -top-4 text-8xl font-black opacity-5 group-hover:opacity-10 transition-opacity">04</span>
+                <h4 class="text-primary font-bold mb-3 uppercase tracking-tighter">Deployment</h4>
+                <p class="text-xs opacity-60 leading-relaxed">সার্ভারে লাইভ করা এবং মেইনটেইনেন্স সাপোর্ট প্রদান।</p>
+            </div>
+        </div>
+    </div>
+</section><section id="pricing" class="py-24 px-6 md:px-24 bg-darkBg/50">
+    <div class="max-w-7xl mx-auto">
+        <div class="section-header reveal text-center w-full">
+            <h2 class="dark:text-white">Service <span class="text-primary">Packages</span></h2>
+            <div class="line mx-auto left-0 right-0"></div>
+        </div>
 
-                    <div class="swiper-slide">
-                        <div class="glass p-8 rounded-[2rem] relative h-full">
-                            <span
-                                class="text-5xl text-primary opacity-20 absolute top-6 right-8 italic font-serif">"</span>
-                            <p class="text-sm italic opacity-80 leading-relaxed mb-6">"Sultanul is a highly skilled
-                                developer. He delivered my e-commerce project on time with an amazing admin panel."</p>
-                            <div class="flex items-center gap-4">
-                                <div
-                                    class="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center font-bold text-primary">
-                                    JD</div>
-                                <div>
-                                    <h5 class="text-xs font-black uppercase">John Doe</h5>
-                                    <p class="text-[10px] opacity-50">CEO, Tech Solutions</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="glass p-8 rounded-[2rem] relative h-full">
-                            <span
-                                class="text-5xl text-primary opacity-20 absolute top-6 right-8 italic font-serif">"</span>
-                            <p class="text-sm italic opacity-80 leading-relaxed mb-6">"Excellent graphic design skills.
-                                He created our brand identity perfectly. Highly recommended for any creative work."</p>
-                            <div class="flex items-center gap-4">
-                                <div
-                                    class="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center font-bold text-primary">
-                                    SA</div>
-                                <div>
-                                    <h5 class="text-xs font-black uppercase">Sarah Ahmed</h5>
-                                    <p class="text-[10px] opacity-50">Marketing Manager</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="glass p-8 rounded-[2rem] relative h-full">
-                            <span
-                                class="text-5xl text-primary opacity-20 absolute top-6 right-8 italic font-serif">"</span>
-                            <p class="text-sm italic opacity-80 leading-relaxed mb-6">"His Laravel expertise is
-                                outstanding. The automation systems he built for our office saved us hundreds of hours."
-                            </p>
-                            <div class="flex items-center gap-4">
-                                <div
-                                    class="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center font-bold text-primary">
-                                    MK</div>
-                                <div>
-                                    <h5 class="text-xs font-black uppercase">Michael Knight</h5>
-                                    <p class="text-[10px] opacity-50">CTO, SoftHost IT</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="glass p-8 rounded-[2rem] relative h-full">
-                            <span
-                                class="text-5xl text-primary opacity-20 absolute top-6 right-8 italic font-serif">"</span>
-                            <p class="text-sm italic opacity-80 leading-relaxed mb-6">"One of the best WordPress
-                                designers I have worked with. Responsive, clean, and modern aesthetics."</p>
-                            <div class="flex items-center gap-4">
-                                <div
-                                    class="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center font-bold text-primary">
-                                    RB</div>
-                                <div>
-                                    <h5 class="text-xs font-black uppercase">Robert Bruce</h5>
-                                    <p class="text-[10px] opacity-50">Freelance Client</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="glass p-8 rounded-[2rem] relative h-full">
-                            <span
-                                class="text-5xl text-primary opacity-20 absolute top-6 right-8 italic font-serif">"</span>
-                            <p class="text-sm italic opacity-80 leading-relaxed mb-6">"Arifine developed my WordPress
-                                website perfectly and graphic design also. Delivered on time and exceeded expectations.
-                                Proud to have 5+ satisfied WordPress projects and 30+ graphic Design!"</p>
-                            <div class="flex items-center gap-4">
-                                <div
-                                    class="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center font-bold text-primary">
-                                    SM</div>
-                                <div>
-                                    <h5 class="text-xs font-black uppercase">SM Mehedi Hassan</h5>
-                                    <p class="text-[10px] opacity-50">Freelance Client</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+        <div class="grid lg:grid-cols-3 gap-8 mt-16">
+            <div class="glass p-10 rounded-[2rem] border border-white/5 hover:border-primary/30 transition-all reveal">
+                <h4 class="text-sm font-bold uppercase tracking-widest opacity-60">Landing Page</h4>
+                <div class="my-6">
+                    <span class="text-5xl font-black text-primary">$150</span>
+                    <span class="text-xs opacity-40 uppercase">/ starting</span>
                 </div>
-                <div class="swiper-pagination !-bottom-2"></div>
+                <ul class="space-y-4 mb-10 text-xs font-medium opacity-80">
+                    <li class="flex items-center gap-2">✅ Single Page Application</li>
+                    <li class="flex items-center gap-2">✅ Responsive UI (Tailwind)</li>
+                    <li class="flex items-center gap-2">✅ Contact Form Integration</li>
+                    <li class="flex items-center gap-2">✅ 1 Month Support</li>
+                </ul>
+                <a href="#" class="block text-center py-4 rounded-xl bg-white/5 hover:bg-primary transition-all font-bold uppercase text-[10px] tracking-widest">Order Now</a>
             </div>
-        </div>
-    </section>
 
-    <section id="faq" class="py-24 px-6 md:px-24">
-        <div class="max-w-4xl mx-auto">
-            <div class="section-header text-center block reveal">
-                <h2 class="inline-block">Common Questions</h2>
-                <div class="line mx-auto"></div>
+            <div class="glass p-10 rounded-[2rem] border-2 border-primary relative reveal shadow-2xl scale-105">
+                <div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-primary text-white text-[9px] font-black px-4 py-1.5 rounded-full uppercase tracking-tighter">Most Popular</div>
+                <h4 class="text-sm font-bold uppercase tracking-widest opacity-60">Custom Laravel Web</h4>
+                <div class="my-6">
+                    <span class="text-5xl font-black text-primary">$500</span>
+                    <span class="text-xs opacity-40 uppercase">/ starting</span>
+                </div>
+                <ul class="space-y-4 mb-10 text-xs font-medium opacity-80">
+                    <li class="flex items-center gap-2 text-primary">✅ Complete Admin Panel</li>
+                    <li class="flex items-center gap-2">✅ Database Design (MySQL)</li>
+                    <li class="flex items-center gap-2">✅ API Implementation</li>
+                    <li class="flex items-center gap-2">✅ Payment Gateway</li>
+                </ul>
+                <a href="#" class="block text-center py-4 rounded-xl bg-primary text-white shadow-lg shadow-primary/20 hover:scale-105 transition-all font-bold uppercase text-[10px] tracking-widest">Get Started</a>
             </div>
-            <div class="space-y-4 reveal">
-                <details class="glass p-6 rounded-2xl cursor-pointer group">
-                    <summary class="font-bold list-none flex justify-between">How to join the Internship Program? <span
-                            class="text-primary">+</span></summary>
-                    <p class="text-xs opacity-60 mt-4 leading-relaxed">You can apply through our dedicated career portal
-                        at Alpha Coder. We review applications monthly based on skill assessments.</p>
-                </details>
-                <details class="glass p-6 rounded-2xl cursor-pointer group">
-                    <summary class="font-bold list-none flex justify-between">Are the courses online or offline? <span
-                            class="text-primary">+</span></summary>
-                    <p class="text-xs opacity-60 mt-4 leading-relaxed">We offer both flexible online modules and
-                        intensive offline workshops at our Jhenaidah center.</p>
-                </details>
-            </div>
-        </div>
-    </section>
 
-    <section class="py-20 px-6">
-        <div class="max-w-5xl mx-auto glass p-12 rounded-[3rem] text-center border-2 border-primary/20 reveal">
-            <h2 class="text-4xl font-black mb-6 uppercase">Ready to Start Your Journey?</h2>
-            <p class="opacity-60 mb-10 max-w-xl mx-auto">Join the Alpha Coder family today and unlock your potential in
-                the tech world.</p>
-            <a href="https://wa.me/8801766359998"
-                class="px-10 py-5 bg-primary text-white font-black rounded-2xl shadow-2xl hover:scale-105 transition-all inline-block uppercase tracking-widest text-sm">Join
-                Now</a>
+            <div class="glass p-10 rounded-[2rem] border border-white/5 hover:border-primary/30 transition-all reveal text-right">
+                <h4 class="text-sm font-bold uppercase tracking-widest opacity-60 text-right">Enterprise SASS</h4>
+                <div class="my-6">
+                    <span class="text-5xl font-black text-primary">$1200</span>
+                    <span class="text-xs opacity-40 uppercase">/ starting</span>
+                </div>
+                <ul class="space-y-4 mb-10 text-xs font-medium opacity-80">
+                    <li class="flex items-center gap-2 justify-end">Multi-role Authentication ✅</li>
+                    <li class="flex items-center gap-2 justify-end">Advanced Reporting System ✅</li>
+                    <li class="flex items-center gap-2 justify-end">Scalable Cloud Hosting ✅</li>
+                    <li class="flex items-center gap-2 justify-end">Lifetime Support ✅</li>
+                </ul>
+                <a href="#" class="block text-center py-4 rounded-xl bg-white/5 hover:bg-primary transition-all font-bold uppercase text-[10px] tracking-widest">Custom Quote</a>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <footer id="contact" class="relative pt-24 pb-12 px-6 md:px-24 overflow-hidden">
         <div
@@ -735,10 +490,8 @@
         </div>
         <div class="absolute -bottom-24 -right-24 w-96 h-96 bg-primary/10 blur-[120px] rounded-full"></div>
         <div class="absolute -bottom-24 -left-24 w-96 h-96 bg-blue-600/10 blur-[120px] rounded-full"></div>
-
         <div class="max-w-7xl mx-auto relative z-10">
             <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-12 mb-16">
-
                 <div class="lg:col-span-2 reveal">
                     <a href="#" class="text-3xl font-black tracking-tighter text-primary uppercase mb-6 block">
                         Arifine<span class="text-slate-400 dark:text-white">.dev</span>
@@ -764,7 +517,6 @@
                         </a>
                     </div>
                 </div>
-
                 <div class="reveal">
                     <h4 class="text-xs font-black uppercase text-primary mb-6 tracking-widest">Navigation</h4>
                     <ul class="space-y-4 text-[11px] font-bold uppercase tracking-widest opacity-60">
@@ -785,7 +537,6 @@
                     </ul>
                     </ul>
                 </div>
-
                 <div class="reveal">
                     <h4 class="text-xs font-black uppercase text-primary mb-6 tracking-widest">Contact Info</h4>
                     <ul class="space-y-4 text-[11px] font-bold opacity-60">
@@ -800,7 +551,6 @@
                         </li>
                     </ul>
                 </div>
-
             </div>
 
             <div class="border-t border-white/5 pt-12 flex flex-col md:flex-row justify-between items-center gap-6 ">
@@ -841,7 +591,6 @@
             gsap.to(dot, { x: e.clientX, y: e.clientY, duration: 0.1 });
             gsap.to(outline, { x: e.clientX, y: e.clientY, duration: 0.3 });
         });
-
         // --- GSAP Scroll Reveal (Veshe othar effect) ---
         gsap.registerPlugin(ScrollTrigger);
         document.querySelectorAll('.reveal').forEach((el) => {
@@ -850,7 +599,6 @@
                 scrollTrigger: { trigger: el, start: "top 85%", toggleActions: "play none none none" }
             });
         });
-
         // --- Magnetic Buttons ---
         document.querySelectorAll('.magnetic-btn').forEach(btn => {
             btn.addEventListener('mousemove', (e) => {
@@ -977,30 +725,6 @@
         });
 
     </script>
-    <script>
-function playVideo() {
-    const wrapper = document.getElementById('video-wrapper');
-    const placeholder = document.getElementById('video-placeholder');
-    const thumb = document.getElementById('thumb-img');
-    const btn = document.getElementById('play-btn');
-
-    // ভিডিও লোড করা
-    placeholder.innerHTML = `
-        <iframe class="w-full h-full border-0" 
-                src="https://www.youtube.com/embed/OcbhF7CaUXw?autoplay=1" 
-                title="Phire Eso Ekbar | Melofyra" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                allowfullscreen>
-        </iframe>`;
-    
-    // থাম্বনেইল ও বাটন হাইড করে ভিডিও দেখানো
-    placeholder.classList.remove('hidden');
-    thumb.classList.add('hidden');
-    btn.classList.add('hidden');
-    wrapper.classList.remove('cursor-pointer');
-    wrapper.onclick = null; // বারবার ক্লিক হওয়া বন্ধ করতে
-}
-</script>
 </body>
 
 </html>
